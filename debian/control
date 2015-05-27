@@ -1,0 +1,24 @@
+Source: django-hijack
+Maintainer: Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>
+Uploaders: Senthil Kumaran S <stylesen@gmail.com>,
+ Neil Williams <codehelp@debian.org>,
+ Fathi Boudra <fabo@debian.org>,
+ Jordi Mallach <jordi@debian.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9), dh-python,
+ python | python-all (>= 2.6.6-3) | python-dev | python-all-dev,
+ python-setuptools (>= 0.6b3), python-django
+X-Python-Version: 2.7
+Standards-Version: 3.9.6
+Homepage: https://github.com/arteria/django-hijack
+Vcs-Git: https://github.com/arteria/django-hijack.git
+Vcs-Browser: https://github.com/Linaro/pkg-django-hijack
+
+Package: python-django-hijack
+Architecture: all
+Depends: python-django-compat (>= 1.0.6-1), ${misc:Depends}, ${python:Depends}
+Description: Allows superusers to login as and work on behalf of other users
+ django-hijack allows superusers to hijack or login as and work on behalf of
+ other users without knowing their credentials. This is handy for testing and
+ debug user problems by the django superuser.

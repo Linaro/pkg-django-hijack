@@ -1,0 +1,11 @@
+django-compat 1.0.6
+===================
+
+Forward and backwards compatibility layer for Django 1.4.x to 1.8.x
+
+This module provides a backwards compatibility layer for Django versions which
+helps in the following:
+1. Be able to use the LTS versions of Django and support newer versions in
+   your app
+2. Use features from newer Django versions in an old one
+3. Manage and master the gap between different framework versions
