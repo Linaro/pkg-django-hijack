@@ -1,11 +1,6 @@
-django-compat 1.0.6
+django-hijack 1.0.7
 ===================
 
-Forward and backwards compatibility layer for Django 1.4.x to 1.8.x
-
-This module provides a backwards compatibility layer for Django versions which
-helps in the following:
-1. Be able to use the LTS versions of Django and support newer versions in
-   your app
-2. Use features from newer Django versions in an old one
-3. Manage and master the gap between different framework versions
+django-hijack allows superusers to hijack or login as and work on behalf of
+other users without knowing their credentials. This is handy for testing and
+debug user problems by the django superuser.
