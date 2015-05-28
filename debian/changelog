@@ -1,5 +1,6 @@
 django-hijack (1.0.7-1) UNRELEASED; urgency=medium
 
-  * Initial release. (Closes: #XXXXXX)
+  * Initial release. (Closes: #787054: ITP: python-django-hijack -- Allows
+    superusers to login as and work on behalf of other users)
 
  -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Tue, 26 May 2015 21:41:40 +0530
