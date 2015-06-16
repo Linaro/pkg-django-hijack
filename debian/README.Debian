@@ -1,4 +1,4 @@
-django-hijack 1.0.7
+django-hijack 1.0.8
 ===================
 
 django-hijack allows superusers to hijack or login as and work on behalf of
