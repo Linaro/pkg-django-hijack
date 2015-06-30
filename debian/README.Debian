@@ -1,6 +1,5 @@
 django-hijack 1.0.8
 ===================
 
-django-hijack allows superusers to hijack or login as and work on behalf of
-other users without knowing their credentials. This is handy for testing and
-debug user problems by the django superuser.
+Unit tests are not run using autopkgtest, since the test suite has a dependency
+on django-jasmine which is not yet available in Debian.

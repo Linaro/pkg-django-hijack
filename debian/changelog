@@ -1,4 +1,12 @@
-django-hijack (1.0.8-1) UNRELEASED; urgency=medium
+django-hijack (1.0.8-2) unstable; urgency=medium
+
+  * Fix README.Debian
+  * Fix Vcs-* links
+  * Bump django-compat dependency to 1.0.6-2
+
+ -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Tue, 30 Jun 2015 16:28:28 +0530
+
+django-hijack (1.0.8-1) unstable; urgency=medium
 
   * Initial release. (Closes: #787054: ITP: python-django-hijack -- Allows
     superusers to login as and work on behalf of other users)
