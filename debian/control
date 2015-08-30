@@ -1,6 +1,7 @@
 Source: django-hijack
 Maintainer: Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>
-Uploaders: Senthil Kumaran S (stylesen) <stylesen@gmail.com>
+Uploaders: Senthil Kumaran S (stylesen) <stylesen@gmail.com>,
+ Neil Williams <codehelp@debian.org>
 Section: python
 Priority: optional
 Build-Depends: debhelper (>= 9), dh-python,
