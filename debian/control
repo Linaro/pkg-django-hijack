@@ -15,7 +15,7 @@ Vcs-Browser: https://github.com/Linaro/pkg-django-hijack.git
 
 Package: python-django-hijack
 Architecture: all
-Depends: python-django-compat (>= 1.0.6-2), ${misc:Depends}, ${python:Depends}
+Depends: python-django-compat (>= 1.0.8-1), ${misc:Depends}, ${python:Depends}
 Description: Allows superusers to login as and work on behalf of other users
  django-hijack allows superusers to hijack or login as and work on behalf of
  other users without knowing their credentials. This is handy for testing and
