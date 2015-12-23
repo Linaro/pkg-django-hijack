@@ -1,3 +1,9 @@
+django-hijack (2.0.1-1) unstable; urgency=medium
+
+  * New upstream production release.
+
+ -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Wed, 23 Dec 2015 17:08:23 +0530
+
 django-hijack (2.0.0-1) unstable; urgency=medium
 
   * New upstream production release.
