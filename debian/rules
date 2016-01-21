@@ -4,3 +4,8 @@ export PYBUILD_NAME=django-hijack
 %:
 	dh $@ --with python2 --buildsystem=pybuild
 
+override_dh_auto_clean::
+	$(RM) -r django_hijack.egg-info/ build/ dist/
+	find . -name '*.pyc' -exec $(RM) -f {} +
+	find . -name '*.pyo' -exec $(RM) -f {} +
+	find . -name '*~' -exec rm $(RM) {} +
