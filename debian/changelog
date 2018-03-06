@@ -1,3 +1,11 @@
+django-hijack (2.1.7-1) unstable; urgency=medium
+
+  * New upstream production release.
+  * Fix FTBFS under Django 1.10 (Closes: #828648)
+  * Fix Excessive build-depends complicate python3 transition (Closes: #866534)
+
+ -- Senthil Kumaran S (stylesen) <stylesen@gmail.com>  Tue, 06 Mar 2018 15:04:24 +0530
+
 django-hijack (2.0.7-2) unstable; urgency=medium
 
   * Package for python3. (Closes: #805452: django-hijack: Python3 support)
